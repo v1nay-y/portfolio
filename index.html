@@ -466,19 +466,19 @@
 
         <form class="contact__form" id="contact-form">
             <div class="form__group">
-                <input type="text" class="form__input" id="name" placeholder=" " required>
+                <input type="text" class="form__input" id="name" name="from_name" placeholder=" " required>
                 <label class="form__label" for="name">Your Name</label>
             </div>
             <div class="form__group">
-                <input type="email" class="form__input" id="email" placeholder=" " required>
+                <input type="email" class="form__input" id="email" name="from_email" placeholder=" " required>
                 <label class="form__label" for="email">Your Email</label>
             </div>
             <div class="form__group">
-                <input type="text" class="form__input" id="subject" placeholder=" ">
+                <input type="text" class="form__input" id="subject" name="subject" placeholder=" ">
                 <label class="form__label" for="subject">Subject</label>
             </div>
             <div class="form__group">
-                <textarea class="form__input form__textarea" id="message" placeholder=" " rows="5" required></textarea>
+                <textarea class="form__input form__textarea" id="message" name="message" placeholder=" " rows="5" required></textarea>
                 <label class="form__label" for="message">Message</label>
             </div>
             <button type="submit" class="button button--primary button--full">
