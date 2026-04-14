@@ -1,0 +1,12 @@
+# Environment variables - NEVER commit real credentials
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
